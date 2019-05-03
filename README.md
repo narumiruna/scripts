@@ -9,5 +9,4 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/narumiruna/scripts/maste
 
 ```shell
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/narumiruna/scripts/master/install_pyenv.sh)"
-$ source ~/.zshrc
 ```
