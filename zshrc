@@ -7,6 +7,7 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs)
 plugins=(
     extract
     git
+    gitfast
     z
     zsh-autosuggestions
     zsh-completions
