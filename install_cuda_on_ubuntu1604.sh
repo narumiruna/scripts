@@ -5,7 +5,7 @@ curl https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/
 sudo dpkg -i ${CUDA_INSTALLER}
 sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
 
-sudo echo "deb https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64 /" > /etc/apt/sources.list.d/nvidia-ml.list
+sudo sh -c 'echo "deb https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64 /" > /etc/apt/sources.list.d/nvidia-ml.list'
 
 sudo apt-get update
 sudo apt-get install -y cuda libcudnn7
