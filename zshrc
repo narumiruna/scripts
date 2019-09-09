@@ -1,13 +1,14 @@
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME=powerlevel10k/powerlevel10k
 POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs)
 
 plugins=(
+    docker
     extract
     git
-    gitfast
+    tmux
     z
     zsh-autosuggestions
     zsh-completions
@@ -18,9 +19,7 @@ autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# lang
+# locales
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
