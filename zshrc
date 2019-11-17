@@ -1,8 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME=powerlevel10k/powerlevel10k
-POWERLEVEL9K_MODE="nerdfont-complete"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs)
 
 plugins=(
     docker
