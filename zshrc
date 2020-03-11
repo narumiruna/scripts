@@ -24,7 +24,3 @@ export LC_ALL=en_US.UTF-8
 
 # editor
 export EDITOR='vim'
-
-# python
-alias python=python3
-alias pip=pip3
